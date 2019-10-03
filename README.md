@@ -1,5 +1,7 @@
 # Finite State Machine Exercise
 
+![Build Status Badge](https://github.com/mike360/fsm/workflows/Build%20Status/badge.svg)
+
 A finite automaton (FA) is a 5-tuple (Q,Σ,q0,F,δ) where
 
 - Q is a finite set of states;
