@@ -1,6 +1,6 @@
 import React from "react"
 import Button from "./Button"
-import useFSM, { states } from "../lib/fsm"
+import useFSM, { states, I1, I0 } from "../lib/fsm"
 
 export default function StateMachine({ initialState }) {
   const [state, dispatch] = useFSM(initialState)
@@ -8,10 +8,10 @@ export default function StateMachine({ initialState }) {
   return (
     <div>
       <div className="buttons">
-        <Button backgroundColor="#4299E1" onClick={() => dispatch("0")}>
+        <Button backgroundColor="#4299E1" onClick={() => dispatch(I0)}>
           0
         </Button>
-        <Button backgroundColor="#03D65C" onClick={() => dispatch("1")}>
+        <Button backgroundColor="#03D65C" onClick={() => dispatch(I1)}>
           1
         </Button>
       </div>
