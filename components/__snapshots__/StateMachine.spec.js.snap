@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`State Machine Component When in S0 state first renders with initial state 1`] = `
+<div>
+  <div
+    class="jsx-1300285096"
+  >
+    <div
+      class="jsx-1300285096 buttons"
+    >
+      <button
+        class="jsx-4025961682 "
+      >
+        0
+      </button>
+      <button
+        class="jsx-720380633 "
+      >
+        1
+      </button>
+    </div>
+    <p
+      class="jsx-1300285096"
+      data-testid="currentState"
+    >
+      Current State: 
+      S0
+    </p>
+    <p
+      class="jsx-1300285096"
+      data-testid="outputValue"
+    >
+      Output Value: 
+      0
+    </p>
+  </div>
+</div>
+`;
