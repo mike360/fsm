@@ -1,17 +1,27 @@
 {
   "name": "bpifsm",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Finite State Machine exercise",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next start",
+    "build": "next build",
+    "dev": "next",
+    "test": "jest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mike Robinson <me@mike-robinson.ca>",
+  "license": "MIT",
   "dependencies": {
+    "color": "^3.1.2",
     "next": "^9.0.7",
     "react": "^16.10.1",
     "react-dom": "^16.10.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.1.0",
+    "@testing-library/react": "^9.2.0",
+    "@types/jest": "^24.0.18",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
   }
 }
